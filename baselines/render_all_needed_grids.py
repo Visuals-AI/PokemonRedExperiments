@@ -32,7 +32,7 @@ def run_save(save):
                 'headless': True, 'save_final_state': True, 'early_stop': False,
                 'action_freq': 24, 'init_state': '../has_pokedex_nballs.state', 'max_steps': ep_length, 
                 'print_rewards': True, 'save_video': True, 'fast_video': False, 'session_path': sess_path,
-                'gb_path': '../PokemonRed.gb', 'debug': False, 'sim_frame_dist': 2_000_000.0
+                'gb_path': '../rom/PokemonRed.gb', 'debug': False, 'sim_frame_dist': 2_000_000.0
             }
     num_cpu = 40  # Also sets the number of episodes per training iteration
     env = SubprocVecEnv([make_env(i, env_config) for i in range(num_cpu)])

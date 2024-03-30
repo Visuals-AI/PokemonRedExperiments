@@ -27,6 +27,8 @@ You also need to install ffmpeg and have it available in the command line.
 2. Move into the `baselines/` directory:  
  ```cd baselines```  
 3. Install dependencies:  
+```conda create -n RL_POKEMON python=3.10```
+```conda activate RL_POKEMON```
 ```pip install -r requirements.txt```  
 It may be necessary in some cases to separately install the SDL libraries.  
 4. Run:  
