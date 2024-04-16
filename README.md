@@ -33,6 +33,13 @@ You also need to install ffmpeg and have it available in the command line.
 It may be necessary in some cases to separately install the SDL libraries.  
 4. Run:  
 ```python run_pretrained_interactive.py```
+
+
+
+conda activate RL_POKEMON
+cd baselines
+python run_pretrained_interactive.py
+
   
 Interact with the emulator using the arrow keys and the `a` and `s` keys (A and B buttons).  
 You can pause the AI's input during the game by editing `agent_enabled.txt`
